@@ -1,0 +1,157 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "\"Dank Mono\"",
+    "editor.fontLigatures": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "explorer.confirmDelete": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": -1,
+    "editor.minimap.enabled": false,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.enableSmartCommit": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }, // Bold
+    "prettier.printWidth": 120,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.fontSize": 18,
+    "editor.suggest.maxVisibleSuggestions": 15,
+    "editor.lineHeight": 23,
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "cmder",
+    "terminal.external.windowsExec": "C:\\cmder\\Cmder.exe",
+    "editor.fontWeight": "bold",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Comment",
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#4A4A4A"
+                }
+            },
+            {
+                "name": "Keyword, Storage",
+                "scope": [
+                    "Keyword",
+                    "Storage"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Keyword Control",
+                "scope": [
+                    "keyword.control"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#78dce8"
+                }
+            },
+            {
+                "name": "entity.name.method.js",
+                "scope": [
+                    "entity.name.method.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#82AAFF"
+                }
+            },
+            {
+                "name": "Language methods",
+                "scope": [
+                    "variable.language"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#FF5370"
+                }
+            },
+            {
+                "name": "HTML Attributes",
+                "scope": [
+                    "text.html.basic entity.other.attribute-name.html",
+                    "text.html.basic entity.other.attribute-name"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#FFCB6B"
+                }
+            },
+            {
+                "name": "Decorators",
+                "scope": [
+                    "tag.decorator.js entity.name.tag.js",
+                    "tag.decorator.js punctuation.definition.tag.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#82AAFF"
+                }
+            },
+            {
+                "name": "ES7 Bind Operator",
+                "scope": [
+                    "source.js constant.other.object.key.js string.unquoted.label.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#FF5370"
+                }
+            },
+            {
+                "name": "Markup - Italic",
+                "scope": [
+                    "markup.italic"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    //"foreground": "#f07178"
+                }
+            },
+            {
+                "name": "Markup - Bold-Italic",
+                "scope": [
+                    "markup.bold markup.italic",
+                    "markup.italic markup.bold",
+                    "markup.quote markup.bold",
+                    "markup.bold markup.italic string",
+                    "markup.italic markup.bold string",
+                    "markup.quote markup.bold string"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                    //"foreground": "#f07178"
+                }
+            }
+        ]
+    },
+    "workbench.colorTheme": "Dark Theme"
+}

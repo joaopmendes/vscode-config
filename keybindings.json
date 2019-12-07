@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+insert",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+home",
+        "command": "explorer.newFolder"
+    }
+]
